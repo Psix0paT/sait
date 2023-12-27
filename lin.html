@@ -1,0 +1,96 @@
+<title>Глава 1</title>
+<style>
+    .btn {
+        display: inline-block;
+        background: #000000;
+        color: #ffffff;
+        padding: 1.5rem 0rem;
+        text-decoration: none;
+        border-radius: 100px;
+    }
+</style>
+
+<body>
+    <link href="Gl1.css" rel="stylesheet" type="text/css" />
+    <div class="main2">
+        <h1 class="main">
+            <p><image src = "Logo.png"align="right" width = "250"></image>></image></p>
+            <h1><a href="index.html">Главная </a>
+                <br><a href="Python.html">Python </a><br>
+                <a href="C++.html">C++ </a><br>    
+                <a href="java.html">java </a> 
+            </h1></strong>
+        </h1>
+    </div>
+    <div class="container">
+        <div class="leftbox">
+            <div class="image1">&nbsp;</div>
+            <div class="leftboxcontent">
+                <p style="color:rgb(0, 0, 0)">Установка Для создания программ на Python нам потребуется интерпретатор. Стоит отметить, что в некоторых дистрибутивах Linux (например, в Ubuntu) Python может быть установлен по умолчанию. Для проверки версии Python в терминале надо выполнить
+                    следующую команду python3 --version
+                    <br>
+                    <td>
+                        <image src="lin1.png" width="500"></image>
+                    </td>
+                    <br> Версия интерпретатора Python в Linux Если Python установлен, то она отобразит версию интерпретатора. Однако даже если Python установлен, его версия может быть не самой последней. Для установки последней доступной версии Python
+                    выполним следующую команду: sudo apt-get update && sudo apt-get install python3 Если надо установить не последнюю доступную, а какую-то определенную версию, то указывается также подверсия Python. Например, установка версии Python 3.10:
+                    sudo apt-get install python3.10 Соответственно, установка версии Python 3.11: sudo apt-get install python3.11 Запуск интерпретатора После установки интерпретатора, как было описано в прошлой теме, мы можем начать создавать приложения
+                    на Python. Итак, создадим первую простенькую программу. Для этого введем в терминале python3 В результате запускается интерпретатор Python. Введем в него следующую строку: 1 print("hello METANIT.COM") И консоль выведет строку "hello
+                    METANIT.COM":
+                    <br>
+                    <td>
+                        <image src="lin2.png" width="500"></image>
+                    </td>
+                    <br> Первая программа на Python в Linux Для этой программы использовалась функция print(), которая выводит некоторую строку на консоль. Создание файла программы В реальности, как правило, программы определяются во внешних файлах-скриптах
+                    и затем передаются интерпретатору на выполнение. Поэтому создадим файл программы. Для этого определим для скриптов папку python. А в этой папке создадим новый текстовый файл, который назовем hello.py. По умолчанию файлы с кодом на
+                    языке Python, как правило, имеют расширение py.
+                    <br>
+                    <td>
+                        <image src="lin3.png" width="500"></image>
+                    </td>
+                    <br> Создание скрипта на языке Python на Linux Откроем этот файл в любом текстовом редакторе и добавим в него следующий код: 1 2 name = input("Введите имя: ") print("Привет,", name)
+                    <br>
+                    <td>
+                        <image src="yap16.png" width="500"></image>
+                    </td>
+                    <br> Python в Visual Studio Code Скрипт состоит из двух строк. Первая строка с помощью функции input() ожидает ввода пользователем своего имени. Введенное имя затем попадает в переменную name. Вторая строка с помощью функции print()
+                    выводит приветствие вместе с введенным именем. Теперь запустим терминал и с помощью команды cd перейдем к папке, где находится файл с исходным кодом hello.py (например, в моем случае это папка metanit/python в каталоге текущего пользователя).
+                    И затем выполним код в hello.py с помощью следующей команды python3 hello.py В итоге программа выведет приглашение к вводу имени, а затем приветствие.
+                    <br>
+                    <td>
+                        <image src="lin5.png" width="500"></image>
+                    </td>
+                    <br>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div>&nbsp;</div>
+    </div>
+    <div class="middlespace">&nbsp;</div>
+    <div class="rightbox">
+        <div>
+            <div class="image2">&nbsp;</div>
+            <div class="rightboxcontent1">
+                <div class="rightboxcontent1a">
+                    <a href="https://vfmgutu.ru/">Сайт института </a>
+                    <a href="https://www.youtube.com/watch?v=sHhGngh8QDQ&t=75s">О нас </a>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div>
+            <div class="rightboxcontent2">
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <table border="1" bgcolor="#00000f" height="100" cellpadding="10" style="width:100%; border-radius:5px;">
+        <tr>
+            <th>
+                <h3 style="color:#ff00b3">Пучков А.С</h3>
+            </th>
+        </tr>
+    </table>
+</body>
